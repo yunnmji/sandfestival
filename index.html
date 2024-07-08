@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모래축제 Sand Festival</title>
+    <!-- 폰트 -->
+    <link href="https://webfontworld.github.io/sunn/SUIT.css" rel="stylesheet">
+    <link href="https://webfontworld.github.io/binggrae/Binggrae.css" rel="stylesheet">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./index.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+</head>
+
+<body>
+    <!-- 헤더 -->
+    <header>
+        <div class="header_in">
+            <a href="#"><img src="./img/logo_hd.png" alt="헤더 로고"></a>
+            <ul class="nav">
+                <li><a href="#program"><span>프로그램</span></a></li>
+                <li><a href="#find"><span>둘러보기</span></a></li>
+                <li><a href="#event"><span>이벤트</span></a></li>
+                <li><a href="#join"><span>참여마당</span></a></li>
+                <li><a href="#none" class="login">로그인<span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span></a></li>
+            </ul>
+        </div>
+        <!-- 햄버거버튼 -->
+        <div class="m_nav">
+            <input type="checkbox" id="menuicon">
+            <label for="menuicon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="sidebar">
+                <ul>
+                    <li><a href="#program"><span>프로그램</span></a></li>
+                    <li><a href="#find"><span>둘러보기</span></a></li>
+                    <li><a href="#event"><span>이벤트</span></a></li>
+                    <li><a href="#join"><span>참여마당</span></a></li>
+                    <li><a href="#none"><span>로그인</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- 메인 -->
+    <div class="main">
+        <div class="cloud">
+            <img src="./img/cloud_st2.png" alt="구름1">
+            <img src="./img/cloud_w.png" alt="구름2">
+            <img src="./img/cloud_st.png" alt="구름3">
+            <img src="./img/cloud_w2.png" alt="구름4">
+            <img src="./img/cloud_w.png" alt="구름5">
+        </div>
+        <div class="title">
+            <h4 data-aos="zoom-in">2025 해운대 모래축제</h4>
+            <h2 data-aos="zoom-in" data-aos-delay="500">모래로 만드는 세상</h2>
+            <img src="./img/logo_main.png" alt="메인 로고" data-aos="zoom-in" data-aos-delay="500" class="logo_main">
+        </div>
+        <div class="beach">
+            <img src="./img/sand_back.png" alt="모래사장1">
+            <img src="./img/sand_front.png" alt="모래사장2">
+            <img src="./img/parasol.png" alt="파라솔" data-aos="zoom-in" data-aos-delay="1000">
+            <img src="./img/mountain.png" alt="모래산" data-aos="zoom-in " data-aos-delay="1000"><img
+                src="./img/tube_red.png" alt="빨간 튜브" class="tube_red" id="program">
+        </div>
+    </div>
+    <div class="tube">
+
+    </div>
+    <!-- 프로그램소개 -->
+    <div class="con1">
+        <h5>Program</h5>
+        <h2>체험&프로그램</h2>
+        <p>모래축제의 다양한 프로그램을 둘러보세요!</p>
+        <img src="./img/cloud_left.png" alt="구름" class="cloud_left">
+        <img src="./img/cloud_right.png" alt="구름" class="cloud_right">
+        <img src="./img/bird.png" alt="갈매기" class="bird">
+        <img src="./img/bird_small.png" alt="작은 갈매기" class="bird2">
+        <div class="swiper-container gallery-center">
+            <div class="gallery-center_inner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#none">
+                            <h5>첫째</h5>
+                            <img src="./img/program_btn.png" alt="버튼" class="program_btn">
+                            <h2>세계모래조각대전</h2>
+                            <p>세계의 모래조각 작가들이 참여한<br>작품들을 감상해보아요!
+                            </p>
+                            <div class="pro_img">
+                                <img src="./img/program1.png" alt="세계모래조각대전">
+                                <div class="line"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#none">
+                            <h5>둘째</h5>
+                            <img src="./img/program_btn.png" alt="버튼" class="program_btn">
+                            <h2>날아라! 샌드보드</h2>
+                            <p>남녀노소 즐길 수 있는 샌드보드!<br>모래산 정상에서부터 신나게 즐겨보세요
+                            </p>
+                            <div class="pro_img">
+                                <img src="./img/program2.png" alt="날아라! 샌드보드">
+                                <div class="line"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#none">
+                            <h5>셋째</h5>
+                            <img src="./img/program_btn.png" alt="버튼" class="program_btn">
+                            <h2>트레저헌트</h2>
+                            <p>행사장 곳곳에 숨겨져 있는<br>경품이 적힌 스티커를 찾아보세요!
+                            </p>
+                            <div class="pro_img">
+                                <img src="./img/program3.png" alt="트레저헌트">
+                                <div class="line"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#none">
+                            <h5>넷째</h5>
+                            <img src="./img/program_btn.png" alt="버튼" class="program_btn">
+                            <h2>도전! 나도 모래조각가</h2>
+                            <p>해운대 모래축제에서<br>나만의 작품을 만들어보세요!
+                            </p>
+                            <div class="pro_img">
+                                <img src="./img/program4.png" alt="도전! 나도 모래조각가">
+                                <div class="line"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 블릿 버튼 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="m_program">
+            <a href="#none">
+                <h5>첫째</h5>
+                <img src="./img/program_btn.png" alt="버튼" class="program_btn">
+                <h2>세계모래조각대전</h2>
+                <p>세계의 모래조각 작가들이 참여한<br>작품들을 감상해보아요!
+                </p>
+                <div class="pro_img">
+                    <img src="./img/program1.png" alt="세계모래조각대전">
+                    <div class="line"></div>
+                </div>
+            </a>
+            <a href="#none">
+                <h5>둘째</h5>
+                <img src="./img/program_btn.png" alt="버튼" class="program_btn">
+                <h2>날아라! 샌드보드</h2>
+                <p>남녀노소 즐길 수 있는 샌드보드!<br>모래산 정상에서부터 신나게 즐겨보세요
+                </p>
+                <div class="pro_img">
+                    <img src="./img/program2.png" alt="날아라! 샌드보드">
+                    <div class="line"></div>
+                </div>
+            </a>
+            <a href="#none">
+                <h5>셋째</h5>
+                <img src="./img/program_btn.png" alt="버튼" class="program_btn">
+                <h2>트레저헌트</h2>
+                <p>행사장 곳곳에 숨겨져 있는<br>경품이 적힌 스티커를 찾아보세요!
+                </p>
+                <div class="pro_img">
+                    <img src="./img/program3.png" alt="트레저헌트">
+                    <div class="line"></div>
+                </div>
+            </a>
+            <a href="#none">
+                <h5>넷째</h5>
+                <img src="./img/program_btn.png" alt="버튼" class="program_btn">
+                <h2>도전! 나도 모래조각가</h2>
+                <p>해운대 모래축제에서<br>나만의 작품을 만들어보세요!
+                </p>
+                <div class="pro_img">
+                    <img src="./img/program4.png" alt="도전! 나도 모래조각가">
+                    <div class="line"></div>
+                </div>
+            </a>
+        </div>
+        <div class="swiper-container2 gallery-center2">
+            <div class="gallery-center_inner2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#none">
+                            <h5>첫째</h5>
+                            <img src="./img/program_btn.png" alt="버튼" class="program_btn">
+                            <h2>세계모래조각대전</h2>
+                            <p>세계의 모래조각 작가들이 참여한<br>작품들을 감상해보아요!
+                            </p>
+                            <div class="pro_img">
+                                <img src="./img/program1.png" alt="세계모래조각대전">
+                                <div class="line"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#none">
+                            <h5>둘째</h5>
+                            <img src="./img/program_btn.png" alt="버튼" class="program_btn">
+                            <h2>날아라! 샌드보드</h2>
+                            <p>남녀노소 즐길 수 있는 샌드보드!<br>모래산 정상에서부터 신나게 즐겨보세요
+                            </p>
+                            <div class="pro_img">
+                                <img src="./img/program2.png" alt="날아라! 샌드보드">
+                                <div class="line"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#none">
+                            <h5>셋째</h5>
+                            <img src="./img/program_btn.png" alt="버튼" class="program_btn">
+                            <h2>트레저헌트</h2>
+                            <p>행사장 곳곳에 숨겨져 있는<br>경품이 적힌 스티커를 찾아보세요!
+                            </p>
+                            <div class="pro_img">
+                                <img src="./img/program3.png" alt="트레저헌트">
+                                <div class="line"></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#none">
+                            <h5>넷째</h5>
+                            <img src="./img/program_btn.png" alt="버튼" class="program_btn">
+                            <h2>도전! 나도 모래조각가</h2>
+                            <p>해운대 모래축제에서<br>나만의 작품을 만들어보세요!
+                            </p>
+                            <div class="pro_img">
+                                <img src="./img/program4.png" alt="도전! 나도 모래조각가">
+                                <div class="line"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 블릿 버튼 -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <div class="con2">
+        <img src="./img/castle.png" alt="모래성" id="find">
+        <img src="./img/shovel.png" alt="모래삽">
+        <img src="./img/star.png" alt="불가사리">
+        <img src="./img/star2.png" alt="작은 불가사리" id="event">
+        <h5>Find</h5>
+        <h2>둘러보기</h2>
+        <p>모래축제 근처 다양한 볼거리, 먹거리를 소개합니다!</p>
+        <ul>
+            <li>
+                <a href="#none">
+                    <div class="more_text">
+                        <h3>해운대 명소</h3>
+                        <p>해운대에 오면 꼭 들려야 할 곳</p>
+                    </div>
+                    <p class="more">자세히보기 →</p>
+                </a>
+
+            </li>
+            <li><a href="#none">
+                    <div class="more_text">
+                        <h3>먹거리 가이드</h3>
+                        <p>모래축제도 식후경!</p>
+                    </div>
+                    <p class="more">자세히보기 →</p>
+                </a>
+            </li>
+            <li>
+                <a href="#none">
+                    <div class="more_text">
+                        <h3>주변 길찾기</h3>
+                        <p>여행객들을 위한 길안내 서비스</p>
+                    </div>
+                    <p class="more">자세히보기 →
+                    </p>
+                </a>
+            </li>
+            <li><a href="#none">
+                    <div class="more_text">
+                        <h3>하루를 부탁해</h3>
+                        <p>해운대에서의 편안한 하루</p>
+                    </div>
+                    <p class="more">자세히보기 →</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- con3:이벤트 -->
+    <div class="con3">
+        <ul>
+            <li data-aos="fade-up"><a href="#none">
+                    <h3>모래축제 퀴즈</h3>
+                    <p>모래축제 이야기를 읽고<br>퀴즈를 풀어보세요!</p>
+                    <div class="bubblebox"><img src="./img/bubble.png" alt="버블" class="bubble"></div>
+                </a></li>
+            <li data-aos="fade-up" data-aos-delay="250"><a href="#none">
+                    <h3>축제 일정</h3>
+                    <p>모래축제 진행 일정과<br>일자별 시간표를 볼 수 있어요</p>
+                    <div class="bubblebox"><img src="./img/bubble.png" alt="버블" class="bubble"></div>
+                </a></li>
+            <li data-aos="fade-up" data-aos-delay="500"><a href="#none">
+                    <h3>축제 인증 릴레이</h3>
+                    <p>모래축제, 재밌게 즐기셨나요?<br>후기를 들려주세요!</p>
+                    <div class="bubblebox"><img src="./img/bubble.png" alt="버블" class="bubble"></div>
+                </a></li>
+            <li data-aos="fade-up" data-aos-delay="750"><a href="#none">
+                    <h3>설문조사</h3>
+                    <p>축제의 발전을 위해,<br>설문조사에 참여해 주세요</p>
+                    <div class="bubblebox"><img src="./img/bubble.png" alt="버블" class="bubble"></div>
+                </a></li>
+        </ul>
+    </div>
+    <!-- con4:참여하기 -->
+    <div class="con4">
+        <img src="./img/sunglass.png" alt="선글라스">
+        <img src="./img/tube_blue.png" alt="파랑 튜브">
+        <img src="./img/tube_red2.png" alt="빨강 튜브" id="join">
+        <img src="./img/star3.png" alt="불가사리">
+        <img src="./img/star4.png" alt="작은 불가사리">
+        <div class="container">
+            <div class="description">
+                <div class="text1">
+                    <h1>도전! 나도 모래조각가</h1>
+                    <ul>
+                        <li>신청기간
+                            <h2>4월 29일 (월) ~ 마감 시 까지</h2>
+                        </li>
+                        <li>장소
+                            <h2>모래체험존 (전망대 옆, 파라다이스 방향)</h2>
+                        </li>
+                    </ul>
+                    <a href="#none">자세히 알아보기 →</a>
+                </div>
+
+                <div class="text2">
+                    <h1>날아라! 샌드보드</h1>
+                    <ul>
+                        <li>신청기간
+                            <h2>5. 24.(금) ~ 5. 27.(월)</h2>
+                        </li>
+                        <li>장소
+                            <h2>샌드보드 존(팔레드시즈 앞 백사장)</h2>
+                        </li>
+                    </ul>
+                    <a href="#none">자세히 알아보기 →</a>
+                </div>
+            </div>
+            <div class="images">
+                <img src="./img/join1.png" alt="도전! 나도 모래조각가" class="image image1 image-up">
+                <img src="./img/join2.png" alt="Image 2" class="image image2">
+            </div>
+        </div>
+        <div class="container2">
+            <div class="join1">
+                <div class="text1">
+                    <h1>도전! 나도 모래조각가</h1>
+                    <ul>
+                        <li>신청기간
+                            <h2>4월 29일 (월) ~ 마감 시 까지</h2>
+                        </li>
+                        <li>장소
+                            <h2>모래체험존 (전망대 옆, 파라다이스 방향)</h2>
+                        </li>
+                    </ul>
+                    <a href="#none">자세히 알아보기 →</a>
+                </div>
+                <img src="./img/join1.png" alt="도전! 나도 모래조각가">
+            </div>
+            <div class="join2">
+                <div class="text2">
+                    <h1>날아라! 샌드보드</h1>
+                    <ul>
+                        <li>신청기간
+                            <h2>5. 24.(금) ~ 5. 27.(월)</h2>
+                        </li>
+                        <li>장소
+                            <h2>샌드보드 존(팔레드시즈 앞 백사장)</h2>
+                        </li>
+                    </ul>
+                    <a href="#none">자세히 알아보기 →</a>
+                </div>
+                <img src="./img/join2.png" alt="도전! 나도 모래조각가">
+            </div>
+        </div>
+        <div class="container3">
+            <div class="join1">
+                <div class="text1">
+                    <h1>도전! 나도 모래조각가</h1><img src="./img/join1_s.png" alt="도전! 나도 모래조각가">
+                    <ul>
+                        <li>신청기간
+                            <h2>4월 29일 (월) ~ 마감 시 까지</h2>
+                        </li>
+                        <li>장소
+                            <h2>모래체험존 (전망대 옆, 파라다이스 방향)</h2>
+                        </li>
+                    </ul>
+                    <a href="#none"></a>
+                </div>
+
+            </div>
+            <div class="join2">
+                <div class="text2">
+                    <h1>날아라! 샌드보드</h1><img src="./img/join2_s.png" alt="도전! 나도 모래조각가">
+                    <ul>
+                        <li>신청기간
+                            <h2>5. 24.(금) ~ 5. 27.(월)</h2>
+                        </li>
+                        <li>장소
+                            <h2>샌드보드 존(팔레드시즈 앞 백사장)</h2>
+                        </li>
+                    </ul>
+                    <a href="#none"></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- con5: 즐기기 -->
+    <div class="con5">
+        <img src="./img/firework1.png" alt="불꽃놀이">
+        <img src="./img/firework2.png" alt="불꽃놀이">
+        <img src="./img/firework3.png" alt="불꽃놀이">
+        <div class="cloud">
+            <img src="./img/cloud_st2.png" alt="구름1">
+            <img src="./img/cloud_w.png" alt="구름2">
+            <img src="./img/cloud_st.png" alt="구름3">
+            <img src="./img/cloud_w2.png" alt="구름4">
+            <img src="./img/cloud_w.png" alt="구름5">
+        </div>
+        <h5>Enjoy</h5>
+        <h2>모래축제 즐기기</h2>
+        <div class="festival">
+            <iframe width="1200" height="720" src="https://www.youtube.com/embed/nSW1edQAZWQ?si=vb5N-G4QvuF0ZWLY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <img src="./img/mountain.png" alt="모래산">
+        <div class="footer_in">
+            <a href="#"><img src="./img/logo_footer.png" alt="푸터 로고"></a>
+            <ul class="link">
+                <li><a href="#none">개인정보처리방침</a></li>
+                <li>|</li>
+                <li><a href="#none">저작권정책</a></li>
+                <li>|</li>
+                <li><a href="#none">사이트맵</a></li>
+                <li>|</li>
+                <li><a href="#none">찾아오시는길</a></li>
+            </ul>
+            <p class="ad_1">(우)48095 부산광역시 해운대구 중동2로 11(중동) | Copyright ⓒ해운대모래축제. All rights reserved.</p>
+            <p class="ad_2">(우)48095 부산광역시 해운대구 중동2로 11(중동) <br> Copyright ⓒ해운대모래축제. All rights reserved.</p>
+            <ul class="sns">
+                <li><a href="#none"><img src="./img/insta.png" alt="인스타그램"><img src="./img/insta_hv.png" alt="인스타그램 호버"
+                            class="sns_hv"></a></li>
+                <li><a href="#none"><img src="./img/youtube.png" alt="유튜브"><img src="./img/youtube_hv.png" alt="유튜브 호버"
+                            class="sns_hv"></a></li>
+                <li><a href="#none"><img src="./img/facebook.png" alt="페이스북"><img src="./img/facebook_hv.png"
+                            alt="페이스북 호버" class="sns_hv"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- 탑버튼 -->
+    <a href="#" class="top">TOP</a>
+    <!-- js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!-- aos 라이브러리 -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000 //aos 나타나는 속도
+        });
+        $(function () {
+            var swiper1 = new Swiper('.gallery-center_inner ', {
+                slidesPerView: 3,//보여지는 갤러리 수
+                spaceBetween: 30,//갤러리 사이 간격
+                centeredSlides: true,//센터모드
+                speed: 1500,//버튼을 슬라이드가 넘어가는 시간
+                autoplay: {
+                    delay: 5000,//자동으로 넘어가기 전 머무르는 시간
+                    disableOnInteraction: false,
+                },
+                loop: true,//슬라이드 무한반복
+                pagination: {//블릿 버튼
+                    el: '.gallery-center .swiper-pagination',
+                    clickable: true,
+                },
+            });
+        });
+        $(function () {
+            var swiper1 = new Swiper('.gallery-center_inner2 ', {
+                slidesPerView: 1,//보여지는 갤러리 수
+                spaceBetween: 100,//갤러리 사이 간격
+                centeredSlides: true,//센터모드
+                speed: 1500,//버튼을 슬라이드가 넘어가는 시간
+                autoplay: {
+                    delay: 5000,//자동으로 넘어가기 전 머무르는 시간
+                    disableOnInteraction: false,
+                },
+                loop: true,//슬라이드 무한반복
+                navigation: {//화살표 버튼
+					nextEl: '.gallery-center2 .swiper-button-next',
+					prevEl: '.gallery-center2 .swiper-button-prev',
+				},
+                pagination: {//블릿 버튼
+                    el: '.gallery-center2 .swiper-pagination',
+                    clickable: true,
+                },
+            });
+        });
+
+        $(document).ready(function () {
+            $(".image1").click(function () {
+                $(this).addClass("image-up").siblings().removeClass("image-up");
+                $(".container .text1").show();
+                $(".container .text2").hide();
+            });
+
+            $(".image2").click(function () {
+                $(this).addClass("image-up").siblings().removeClass("image-up");
+                $(".container .text1").hide();
+                $(".container .text2").show();
+            });
+        });
+        $(window).scroll(function () {
+            var height = $(window).scrollTop();
+            if (height > 300) {
+                $('.top').fadeIn();
+            } else {
+                $('.top').fadeOut();
+            }
+        });
+
+        $('.top').click(function () {
+            $('html, body').animate({ scrollTop: 0 }, 100);
+            return false;
+        });
+    </script>
+
+</body>
+
+</html>
