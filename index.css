@@ -2035,7 +2035,9 @@ footer>img {
         bottom: 0px;
         right: -100px;
     }
-    .bird, .bird2{
+
+    .bird,
+    .bird2 {
         display: none;
     }
 
@@ -2073,144 +2075,190 @@ footer>img {
     .footer_in ul a {
         font-size: 10px;
     }
-    @media(max-width:520px){
+
+    @media(max-width:520px) {
+
         /* main */
-        .title h2{font-size: 20px;}
-        .title h4{
+        .title h2 {
+            font-size: 20px;
+        }
+
+        .title h4 {
             font-size: 12px;
         }
-    
-        .title img{
+
+        .title img {
             width: 300px;
         }
-        .title{
+
+        .title {
             left: calc(50% - 150px);
         }
+
         /* con1 */
-        .con1{
+        .con1 {
             height: 750px;
         }
+
         /* con3 */
-        .con3 p{
+        .con3 p {
             font-size: 12px;
         }
+
         /* con4 */
         .container3 a {
             padding: 7%;
             bottom: 100px;
         }
-        .con4{
+
+        .con4 {
             height: 1600px;
         }
+
         /* con5 */
-        .festival{
+        .festival {
             width: 400px;
             height: 240px;
         }
-        iframe{
+
+        iframe {
             width: 400px;
             height: 250px;
         }
+
         /* footer */
-        footer>img{
+        footer>img {
             width: 90px;
             top: 100px;
         }
     }
-    @media(max-width:460px){
-        .header_in a>img{
+
+    @media(max-width:460px) {
+        .header_in a>img {
             width: 150px;
         }
-        .title h4{
+
+        .title h4 {
             width: 200px;
         }
-        .title>img{
+
+        .title>img {
             width: 200px;
         }
-        .title{
+
+        .title {
             width: 200px;
             left: calc(50% - 100px);
         }
-        .main{
+
+        .main {
             height: 950px;
         }
-        .tube_red{
+
+        .tube_red {
             width: 80px;
             right: 20px;
             bottom: 90px;
         }
-    
-        .con2 img:nth-child(1){
+
+        .con2 img:nth-child(1) {
             width: 90px;
             left: 20px;
             top: 0px;
         }
-        .con2 img:nth-child(2){
+
+        .con2 img:nth-child(2) {
             left: 130px;
             top: 40px;
         }
-        .con2{
+
+        .con2 {
             margin-top: -170px;
         }
-        .con2 a .more{
+
+        .con2 a .more {
             display: none;
         }
-        .con3{height: 1650px;}
-        .con3 ul{
-            width: 95%;
-        }
-        .con2 ul li{
+
+        .con2 ul li {
             width: 90%;
         }
-        .con2 li:nth-child(1) a, .con2 li:nth-child(2) a, .con2 li:nth-child(3) a, .con2 li:nth-child(4) a{
+
+        .con2 li:nth-child(1) a,
+        .con2 li:nth-child(2) a,
+        .con2 li:nth-child(3) a,
+        .con2 li:nth-child(4) a {
             background: url(./img/blue_btn.png) no-repeat 90% center #fff;
             background-size: 12%;
         }
-        .con3 li p{
+
+        .con3 {
+            height: 1750px;
+        }
+
+        .con3 ul {
+            width: 95%;
+        }
+
+        .con3 li p {
             font-size: 10px;
         }
-        .con3 li a{
-            padding-top: 130px;
+
+        .con3 li a {
+            padding-top: 110%;
         }
-        .con3 li:nth-child(1) a,.con3 li:nth-child(2) a,.con3 li:nth-child(3) a,.con3 li:nth-child(4) a{
+
+        .con3 li:nth-child(1) a,
+        .con3 li:nth-child(2) a,
+        .con3 li:nth-child(3) a,
+        .con3 li:nth-child(4) a {
             background-size: 100%;
         }
-        .con4>img:nth-child(1){
+
+        .con4>img:nth-child(1) {
             right: 100px;
             width: 50px;
         }
-        .con4>img:nth-child(2){
+
+        .con4>img:nth-child(2) {
             width: 40px;
             right: 50px;
         }
-        .con4>img:nth-child(3){
+
+        .con4>img:nth-child(3) {
             width: 60px;
             right: 10px;
             top: 50px;
         }
-        .container3 h1{
+
+        .container3 h1 {
             font-size: 25px;
         }
-        .container3 h2{
+
+        .container3 h2 {
             font-size: 15px;
         }
-        .con4{
+
+        .con4 {
             height: 1400px;
         }
-        .festival{
+
+        .festival {
             border: 5px solid white;
             width: 300px;
             height: 180px;
         }
-        iframe{
+
+        iframe {
             width: 300px;
             height: 180px;
         }
-        .con5{
+
+        .con5 {
             height: 700px;
         }
-        
-        footer>img{
+
+        footer>img {
             display: none;
         }
     }
